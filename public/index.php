@@ -23,7 +23,8 @@ $router->add('', ['controller' => 'Home', 'Action' => 'index']);
 $router->add('posts', ['controller' => 'Posts', 'Action' => 'index']);
 $router->add('posts/new', ['controller' => 'Posts', 'Action' => 'new']);
 $router->add('{controller}/{action}');
-$router->add('admin/{action}/{controller}');
+//$router->add('admin/{cont}/{controller}');
+//$router->add('admin/{controller}/{id:\d+}/{action}');
 $router->add('{controller}/{id:\d+}/{action}');
 
 // Display the routing table
