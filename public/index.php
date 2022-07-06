@@ -6,11 +6,12 @@
  * PHP version 5.4
  */
 
-// echo 'Requested URL = "' . $_SERVER['QUERY_STRING'] . '"';
+//echo 'Requested URL = "' . $_SERVER['QUERY_STRING'] . '"';
 
 /**
  * Routing
  */
+
 require '../Core/Router.php';
 
 $router = new Router();
@@ -18,14 +19,23 @@ $router = new Router();
 //echo get_class($router);
 
 // Add the routes
-$router->add('', ['controller' => 'Home', 'action' => 'index']);
-$router->add('posts', ['controller' => 'Posts', 'action' => 'index']);
-$router->add('posts/new', ['controller' => 'Posts', 'action' => 'new']);
+$router->add('', ['controller' => 'Home', 'Action' => 'index']);
+$router->add('posts', ['controller' => 'Posts', 'Action' => 'index']);
+$router->add('posts/new', ['controller' => 'Posts', 'Action' => 'new']);
+$router->add('{controller}/{action}');
+$router->add('admin/{action}/{controller}');
+$router->add('{controller}/{id:\d+}/{action}');
 
 // Display the routing table
 // echo '<pre>';
 // var_dump($router->getRoutes());
 // echo '</pre>';
+
+// Display the routing table
+echo '<pre>';
+//var_dump($router->getRoutes());
+echo htmlspecialchars(print_r($router->getRoutes(), true));
+echo '</pre>';
 
 // Match the requested route
 $url = $_SERVER['QUERY_STRING'];
@@ -35,5 +45,5 @@ if ($router->match($url)) {
     var_dump($router->getParams());
     echo '</pre>';
 } else {
-    echo "No route found for URL '$url'"; // This will be the 404 page
+    echo "No route found for URL '$url'";
 }

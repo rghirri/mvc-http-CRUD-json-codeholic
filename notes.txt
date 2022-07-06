@@ -1,0 +1,23 @@
+/echo preg_replace('/ab(c)/', '\1de', 'abc');
+//echo preg_replace('/ab(c)/', '\1de', 'abc');
+
+ //echo preg_replace('/ab(c)/', '\1de', 'abc');
+
+ //echo preg_replace('/ab(c)/', '\1de', 'abc');
+ //echo preg_replace('/ab(c)/', '\1de', 'abc');
+ // echo preg_match(
+ // echo preg_match(
+ // echo preg_match(
+ // '/^(?P<controller>[a-z]+)\/(?P<action>[a-z]+)$/',
+   // 'posts/index',
+   // $matches
+   // );
+   //var_dump($matches);
+   // echo '<br>';
+   // echo 'The controller is :' . $matches['controller'];
+   // echo '<br>';
+   // echo 'The action is :' . $matches['action'];
+
+   // Regular expressions replacing in php
+
+   //echo preg_replace($pattern, 'W3Schools', $str);
