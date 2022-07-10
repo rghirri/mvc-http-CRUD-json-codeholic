@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use Core\View;
+use App\Models\Post;
 
 /**
  * Posts controller
@@ -39,8 +40,11 @@ class Posts extends \Core\Controller
      */
     public function indexAction()
     {
+        $posts = Post::getAll();
         //echo 'Hello from the index action in the Posts controller!';
-        View::renderTemplate('Posts/index.twig');
+        View::renderTemplate('Posts/index.twig', [
+            'posts' => $posts,
+        ]);
     }
 
     /**
