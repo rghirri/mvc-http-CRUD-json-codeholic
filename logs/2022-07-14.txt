@@ -1,0 +1,81 @@
+[14-Jul-2022 19:52:29 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php' on line 134
+[14-Jul-2022 20:04:27 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.twig" (looked into: ../App/Views).'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.twig')
+#1 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.twig')
+#2 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.twig')
+#3 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Home/inde.twig')
+#4 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\view.php(50): Twig\Environment->render('Home/inde.twig', Array)
+#5 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/inde.twig', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Controller.php(47): call_user_func_array(Array, Array)
+#8 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php(120): Core\Controller->__call('index', Array)
+#9 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php' on line 227
+[14-Jul-2022 20:14:46 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.twig" (looked into: ../App/Views).'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.twig')
+#1 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.twig')
+#2 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.twig')
+#3 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Home/inde.twig')
+#4 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\view.php(50): Twig\Environment->render('Home/inde.twig', Array)
+#5 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/inde.twig', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Controller.php(47): call_user_func_array(Array, Array)
+#8 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php(120): Core\Controller->__call('index', Array)
+#9 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php' on line 227
+[14-Jul-2022 20:19:10 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.twig" (looked into: ../App/Views).'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.twig')
+#1 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.twig')
+#2 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.twig')
+#3 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Home/inde.twig')
+#4 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\view.php(50): Twig\Environment->render('Home/inde.twig', Array)
+#5 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/inde.twig', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Controller.php(47): call_user_func_array(Array, Array)
+#8 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php(120): Core\Controller->__call('index', Array)
+#9 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php' on line 227
+[14-Jul-2022 20:19:10 Europe/Berlin] PHP Fatal error:  Uncaught Twig\Error\LoaderError: Unable to find template "base.html" (looked into: ../App/Views) in "500.twig" at line 1. in C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php:227
+Stack trace:
+#0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('base.html')
+#1 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('base.html')
+#2 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Template.php(319): Twig\Environment->getTemplateClass('base.html')
+#3 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(358) : eval()'d code(42): Twig\Template->loadTemplate('base.html', '500.twig', 1)
+#4 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Template.php(394): __TwigTemplate_46f9c95fc089fc8674d2620f95cda430->doDisplay(Array, Array)
+#5 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Template.php(367): Twig\Template->displayWithErrorHandling(Array, Array)
+#6 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Template.php(379): Twig\Template->display(Array)
+#7 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\TemplateWrapper.php(40): Twig\Template->render(Array, Array)
+#8 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(277): Twig\TemplateWrapper->render(Array)
+#9 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\view.php(50): Twig\Environment->render('500.twig', Array)
+#10 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Error.php(80): Core\View::renderTemplate('500.twig')
+#11 [internal function]: Core\Error::exceptionHandler(Object(Twig\Error\LoaderError))
+#12 {main}
+  thrown in C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php on line 227
+[14-Jul-2022 20:19:41 Europe/Berlin] Uncaught exception: 'Twig\Error\LoaderError' with message 'Unable to find template "Home/inde.twig" (looked into: ../App/Views).'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php(131): Twig\Loader\FilesystemLoader->findTemplate('Home/inde.twig')
+#1 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(261): Twig\Loader\FilesystemLoader->getCacheKey('Home/inde.twig')
+#2 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(309): Twig\Environment->getTemplateClass('Home/inde.twig')
+#3 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Environment.php(277): Twig\Environment->load('Home/inde.twig')
+#4 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\view.php(50): Twig\Environment->render('Home/inde.twig', Array)
+#5 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\App\Controllers\Home.php(49): Core\View::renderTemplate('Home/inde.twig', Array)
+#6 [internal function]: App\Controllers\Home->indexAction()
+#7 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Controller.php(47): call_user_func_array(Array, Array)
+#8 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php(120): Core\Controller->__call('index', Array)
+#9 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('')
+#10 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\vendor\twig\twig\src\Loader\FilesystemLoader.php' on line 227
+[14-Jul-2022 20:20:25 Europe/Berlin] Uncaught exception: 'Exception' with message 'No route matched.'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('products')
+#1 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php' on line 130
+[14-Jul-2022 20:20:53 Europe/Berlin] Uncaught exception: 'Exception' with message 'Method eeAction not found in controller App\Controllers\Posts'
+Stack trace: #0 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Router.php(120): Core\Controller->__call('ee', Array)
+#1 C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\public\index.php(46): Core\Router->dispatch('posts/ee')
+#2 {main}
+Thrown in 'C:\Users\rghir\Desktop\work_training\Laravel\laravel_practice\Rest-API\http-training-laravel-docs\mvc-http-CRUD-json-codeholic\Core\Controller.php' on line 52
